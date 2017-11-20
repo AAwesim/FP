@@ -1,6 +1,9 @@
 body{
     background:URL(WHITE.jpg) ;
     margin: 70px 0 0 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 5px;
+
      
 }
 .introBar{
@@ -26,28 +29,30 @@ body{
     padding: 50px 30px;
     text-decoration: none;
     border-radius: 10px;
-    background-color: #100d0dbf;
+   /* background-color: rgba(16,13,13,0.75);*/
+   background-color: #4b4b49;
     
     
     
 }
 
 .introBar li a:hover+div{
-    background-color: #100d0dbf;
+    background-color: rgba(16,13,13,0.75);
     display:inherit;
     border: solid;
+
+
 
     
 }
 .introBar li a:hover{
- 
-    
-      margin: 0px;
+    margin: 0px;
     background-color: #ffffff;
     
     opacity: 0.9;
     filter: alpha(opacity=40);
-    color: #100d0dbf;
+    /*color: #100d0dbf;*/
+    color: #4b4b49;
     
 }
 #english:hover{
