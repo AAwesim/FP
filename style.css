@@ -1,12 +1,20 @@
-body{
-    background:URL(WHITE.jpg) ;
-    margin: 70px 0 0 0;
-    font-family: 'Barlow Condensed', sans-serif;
-    letter-spacing: 5px;
-
-     
+body{  
+    margin:0;
 }
+
+
+/** Introside start *******************************************/
+.content-wrapper-intro{
+    background:URL(WHITE.jpg) ;
+    font-family: 'Barlow Condensed', 'Helvetica', sans-serif;
+    letter-spacing: 5px;
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+}
+
 .introBar{
+    margin: 70px 0 0 0;
     text-align: center;
     font-size: 30px;
     color: aliceblue;
@@ -80,8 +88,21 @@ body{
     border-bottom: none;
 
 }
- p{
-    color: black;
-    margin-left: 360px;
-    font-size: 30px;
+
+
+/* Media Queries*/
+
+@media only screen and (max-width: 768px) {
+    .introBar ul {
+        margin: 0 10%;
+        width: 80%;
+    }
+
+    .introBar li {
+        padding: 3% 0;
+    }
 }
+
+/*Media Queries End*/
+
+/** Introside slutt ********************************/
