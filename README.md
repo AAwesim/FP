@@ -8,6 +8,7 @@ Hei velkommen til min Youtube-kanal, idag spiller vi mInEcraft med mine venner# 
 hei
 hei
 =====
+hva skjr mine brødre
 <head> jetmir </head>
 >>>>>>> 586247003045cd640783544c0bea21a1ed90b688
 =======
