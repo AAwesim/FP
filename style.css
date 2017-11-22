@@ -150,6 +150,7 @@ body{
 }
 
 .mobile-navBar {
+    visibility: visible;
     margin: 10px 0 0 0;
     position: absolute;
     width:100%;
@@ -177,22 +178,67 @@ body{
 
 .mobile-dropdown-content li {
     display: inline-block;
-    width:75px;
+    width:60px;
+    padding:0 5%;
 }
 
 .mobile-dropdown-content a {
     text-decoration: none;
     display:block;
-    text-align
 }
 
 .mobile-dropdown-content span {
     display: block;
+    text-align: center;
     width:auto;
     color:white;
     font-family: 'Barlow Condensed', 'Helvetica', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.06em;
 
 }
 /*Mobile Navbar End*/
+
+
+.navBar {
+    visibility: hidden;
+    position: fixed;
+    margin:25vh 0;
+    left: 0;
+    height:40vh;
+    width:150px;
+    background-color: #313131;
+}
+
+.navBar li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 769px) {
+    .mobile-navBar {
+        visibility: hidden; 
+    }
+
+    .navBar {
+        visibility: visible;
+    }
+
+
+}
+
+/*SVG CSS*/
+.st {
+    fill:#FFFFFF;
+}
+
+/*SVG CSS End*/
