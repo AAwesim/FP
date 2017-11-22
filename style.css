@@ -37,8 +37,8 @@ body{
     padding: 50px 30px;
     text-decoration: none;
     border-radius: 10px;
-   /* background-color: rgba(16,13,13,0.75);*/
-   background-color: #4b4b49;
+    /* background-color: rgba(16,13,13,0.75);*/
+    background-color: #4b4b49;
     
     
     
@@ -64,7 +64,7 @@ body{
     
 }
 #english:hover{
-   
+
 }
 #voice:hover{
     background: none;
@@ -125,7 +125,7 @@ body{
 }
 
 .mobile-button ul {
-    
+
     display: block;
     list-style-type: none;
     background-color: #313131;
@@ -198,6 +198,7 @@ body{
 }
 /*Mobile Navbar End*/
 
+/*Desktop Navbar Start*/
 
 .navBar {
     visibility: hidden;
@@ -207,6 +208,26 @@ body{
     width:150px;
     background-color: #313131;
 }
+
+.navBar:hover .home-svg{
+    fill:purple;
+}
+
+
+.navBar:hover .problem-svg{
+    fill:#0C00FF;
+}
+
+
+.navBar:hover .solution-svg{
+    fill:yellow;
+}
+
+.navBar:hover .faq-svg{
+    fill:red;
+}
+
+
 
 .navBar ul {
     padding:0;
@@ -219,7 +240,6 @@ body{
     height: 10vh;
     padding:15% 0 15% 25%;
     width:auto;
-    z-index: 99;
 }
 
 .navBar a {
@@ -250,6 +270,8 @@ body{
     }
 
 }
+
+/*Desktop Navbar End*/
 
 /*SVG CSS*/
 .st {
