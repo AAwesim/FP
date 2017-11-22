@@ -236,6 +236,7 @@ body{
 
 .navBar li {
     list-style: none;
+    border-top: 1px solid black;
     display: block;
     height: 10vh;
     padding:15% 0 15% 25%;
