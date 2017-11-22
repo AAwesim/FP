@@ -203,19 +203,20 @@ body{
 .navBar {
     visibility: hidden;
     position: fixed;
-    margin:25vh 0;
+    margin:10vh 0;
     left: 0;
-    width:150px;
-    background-color: #313131;
+    width:200px;
 }
 
 .navBar:hover .home-svg{
-    fill:purple;
+    /*fill:purple;*/
+    fill:#D131FF;
 }
 
 
 .navBar:hover .problem-svg{
-    fill:#0C00FF;
+    /*fill:#0C00FF;*/
+    fill:#058CC8;
 }
 
 
@@ -232,6 +233,7 @@ body{
 .navBar ul {
     padding:0;
     margin:0;
+    background-color: #313131;
 }
 
 .navBar li {
@@ -239,7 +241,7 @@ body{
     border-top: 1px solid black;
     display: block;
     height: 10vh;
-    padding:15% 0 15% 25%;
+    padding:15% 0 15% 33%;
     width:auto;
 }
 
@@ -247,6 +249,10 @@ body{
     text-decoration: none;
     display:block;
     width:60px;
+}
+
+.navBar li:hover a{
+    transform: scale(1.5);
 }
 
 .navBar span {
@@ -258,6 +264,17 @@ body{
     text-transform: uppercase;
     letter-spacing: 0.06em;
 
+}
+
+.desktop-language a {
+    text-decoration: none;
+    display: block;
+    width:auto;
+}
+
+.navBar .desktop-language {
+    background-color:white;
+    width:120px;
 }
 
 
@@ -272,13 +289,35 @@ body{
 
 }
 
+@media only screen and (max-height: 725px){
+
+    .navBar {
+        margin: 0 0;
+    }
+
+    .navBar a {
+        transform: scale(0.7);
+    }
+
+    .navBar li {
+        height: 8vh;
+        border:none;
+    }
+
+    .navBar li:hover a{
+    transform: scale(1.2);
+}
+
+    .navBar ul{
+        height: 100vh;
+    }
+}
+
 /*Desktop Navbar End*/
 
 /*SVG CSS*/
 .st {
     fill:#FFFFFF;
-    height: 60px;
-    width:40px;
 }
 
 /*SVG CSS End*/
