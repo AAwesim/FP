@@ -108,7 +108,6 @@ body{
 /** Introside slutt ********************************/
 
 
-
 /*Mobile Navbar*/
 
 .show {
@@ -205,23 +204,38 @@ body{
     position: fixed;
     margin:25vh 0;
     left: 0;
-    height:40vh;
     width:150px;
     background-color: #313131;
 }
 
+.navBar ul {
+
+}
+
 .navBar li {
     list-style: none;
+    display: block;
+    height: 10vh;
+    padding:5%;
+    width:60px;
 }
 
 
+.navBar a {
+    text-decoration: none;
+    display:block;
+}
 
+.navBar span {
+    display: block;
+    text-align: center;
+    width:auto;
+    color:white;
+    font-family: 'Barlow Condensed', 'Helvetica', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 
-
-
-
-
-
+}
 
 
 @media only screen and (min-width: 769px) {
@@ -233,12 +247,13 @@ body{
         visibility: visible;
     }
 
-
 }
 
 /*SVG CSS*/
 .st {
     fill:#FFFFFF;
+    height: 60px;
+    width:40px;
 }
 
 /*SVG CSS End*/
