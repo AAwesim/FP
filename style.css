@@ -106,3 +106,93 @@ body{
 /*Media Queries End*/
 
 /** Introside slutt ********************************/
+
+
+
+/*Mobile Navbar*/
+
+.show {
+    display: block !important;
+} 
+
+.mobile-button {
+    cursor: pointer;
+    padding: 0 7px;
+    margin:0 0 10px 0;
+    background-color: inherit;  
+    border: none;
+    outline: none;
+
+}
+
+.mobile-button ul {
+    
+    display: block;
+    list-style-type: none;
+    background-color: #313131;
+    margin: 0;
+    margin-left:;
+    padding: 0;
+    height: 65px;
+    width: 75px;
+    border-radius: 5px;
+}
+
+.mobile-button li {
+    display: inline-block;
+    height:5%;
+    padding: 3% 0;
+    background-color: #FFF8F8;
+    width:60%;
+    border-radius: 2px;
+    margin-top:10%;
+    margin-bottom: 3%;
+}
+
+.mobile-navBar {
+    margin: 10px 0 0 0;
+    position: absolute;
+    width:100%;
+
+}
+
+.mobile-spacing{
+
+    display:block;
+    height:8px;
+    width:100%;
+    background-color:#a4a5c3;
+}
+
+.mobile-dropdown-content {
+    display:none;
+    position: absolute;
+    width:100%;
+    background-color: #313131;
+}
+
+.mobile-dropdown-content ul{
+    list-style: none;
+}
+
+.mobile-dropdown-content li {
+    display: inline-block;
+    width:75px;
+}
+
+.mobile-dropdown-content a {
+    text-decoration: none;
+    display:block;
+    text-align
+}
+
+.mobile-dropdown-content span {
+    display: block;
+    width:auto;
+    color:white;
+    font-family: 'Barlow Condensed', 'Helvetica', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+
+}
+/*Mobile Navbar End*/
