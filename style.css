@@ -1,5 +1,6 @@
 body{  
     margin:0;
+    background-color: dimgrey;
 }
 
 
@@ -251,25 +252,25 @@ body{
     width:60px;
 }
 
-.navBar li:hover a{
+.navBar a:hover {
     transform: scale(1.5);
 }
 
-.navBar li:hover .home-svg {
+.navBar a:hover .home-svg {
     /*fill: #FF00EA;*/
     fill: #FF5DFD
 }
 
-.navBar li:hover .problem-svg {
+.navBar a:hover .problem-svg {
     fill:#6DECFF;
 }
 
-.navBar li:hover .solution-svg {
+.navBar a:hover .solution-svg {
     fill:yellow;
 }
 
 
-.navBar li:hover .faq-svg {
+.navBar a:hover .faq-svg {
     fill:#FFACAC;
 }
 .navBar span {
@@ -321,7 +322,7 @@ body{
         border:none;
     }
 
-    .navBar li:hover a{
+    .navBar a:hover {
     transform: scale(1.2);
 }
 
