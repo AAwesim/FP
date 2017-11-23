@@ -221,7 +221,7 @@ body{
 
 
 .navBar:hover .solution-svg{
-    fill:yellow;
+    fill:#FFD200;;
 }
 
 .navBar:hover .faq-svg{
@@ -255,6 +255,23 @@ body{
     transform: scale(1.5);
 }
 
+.navBar li:hover .home-svg {
+    /*fill: #FF00EA;*/
+    fill: #FF5DFD
+}
+
+.navBar li:hover .problem-svg {
+    fill:#6DECFF;
+}
+
+.navBar li:hover .solution-svg {
+    fill:yellow;
+}
+
+
+.navBar li:hover .faq-svg {
+    fill:#FFACAC;
+}
 .navBar span {
     display: block;
     text-align: center;
