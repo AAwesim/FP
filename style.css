@@ -1,6 +1,6 @@
 body{  
     margin:0;
-    background-color: dimgrey;
+    background-color: antiquewhite;
 }
 
 
@@ -156,19 +156,20 @@ body{
     width:100%;
 
 }
-
+/*
 .mobile-spacing{
 
     display:block;
     height:8px;
     width:100%;
     background-color:#a4a5c3;
-}
+}*/
 
 .mobile-dropdown-content {
     display:none;
     position: absolute;
     width:100%;
+    z-index: 1;
     background-color: #313131;
 }
 
@@ -198,6 +199,20 @@ body{
 
 }
 /*Mobile Navbar End*/
+
+/*Content page start */
+.content{
+    width:100%;
+    background-color:white;
+    display: block;
+    box-shadow: 0px -9px 0px 9px #313131;
+    top:17vh;
+    position: relative;
+    height: 50vh;
+    
+}
+
+/*Content page end*/
 
 /*Desktop Navbar Start*/
 
