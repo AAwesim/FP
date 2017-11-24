@@ -99,6 +99,7 @@ body{
         width: 80%;
     }
 
+
     .introBar li {
         padding: 3% 0;
     }
@@ -324,9 +325,21 @@ body{
         visibility: visible;
     }
 
+
+    .content {
+        width:769px;
+        left:26%;
+        box-shadow: none;
+        height: 100vh;
+    }
+
 }
 
 @media only screen and (max-height: 725px){
+
+    .content {
+        left:22%;
+    }
 
     .navBar {
         margin: 0 0;
