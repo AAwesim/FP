@@ -335,7 +335,7 @@ body{
 
 }
 
-@media only screen and (max-height: 725px){
+@media only screen and (max-height: 725px) and (min-width: 769px) {
 
     .content {
         left:22%;
