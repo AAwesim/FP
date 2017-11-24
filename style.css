@@ -329,7 +329,7 @@ body{
     .content {
         width:769px;
         left:26%;
-        box-shadow: none;
+        box-shadow: 0 10px 10px 0;
         height: 100vh;
     }
 
