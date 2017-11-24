@@ -221,7 +221,7 @@ body{
 .navBar {
     visibility: hidden;
     position: fixed;
-    margin:10vh 0;
+    margin:17vh 0;
     left: 0;
     width:200px;
     box-shadow:3px 0px 20px 0px;
