@@ -212,7 +212,7 @@ body{
 
 .content p {
     text-align: justify;
-    padding:2% 5%;
+    font: 1em Helvetica;
 }
 
 .inner-content {
@@ -225,7 +225,7 @@ body{
     padding-bottom: 0vh;
 }
 .intro-problem p {
-    text-align: center;
+    text-align: justify;
     
 }
 
