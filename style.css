@@ -197,6 +197,7 @@ body{
     letter-spacing: 0.06em;
 
 }
+
 /*Mobile Navbar End*/
 
 /*Desktop Navbar Start*/
@@ -211,14 +212,15 @@ body{
 }
 
 .navBar:hover .home-svg{
-    /*fill:purple;*/
+    /*fill:purple;*/ 
     fill:#D131FF;
 }
 
 
 .navBar:hover .problem-svg{
     /*fill:#0C00FF;*/
-    fill:#058CC8;
+    /*fill:#058CC8;*/
+    fill:#00ffe0;
 }
 
 
@@ -275,7 +277,7 @@ body{
 .navBar a:hover .faq-svg {
     fill:#FFACAC;
 }
-.navBar span {
+.navBar span {  
     display: block;
     text-align: center;
     width:auto;
