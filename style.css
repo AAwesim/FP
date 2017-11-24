@@ -222,7 +222,7 @@ body{
 .navBar {
     visibility: hidden;
     position: fixed;
-    margin:10vh 0;
+    margin:17vh 0;
     left: 0;
     width:200px;
     box-shadow:3px 0px 20px 0px;
@@ -330,13 +330,13 @@ body{
     .content {
         width:769px;
         left:26%;
-        box-shadow: none;
+        box-shadow: 0 10px 10px 0;
         height: 100vh;
     }
 
 }
 
-@media only screen and (max-height: 725px){
+@media only screen and (max-height: 725px) and (min-width: 769px) {
 
     .content {
         left:22%;
