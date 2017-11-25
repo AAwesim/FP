@@ -372,6 +372,20 @@ h1, h2, h3, h4 {
         box-shadow: 0 10px 10px 0;
     }
 
+    .home-image {
+        margin-left: 14% !important;
+        margin-top:17vh !important;
+        box-sizing: border-box;
+    }
+
+    .home-image img {
+
+       height:83vh !important;
+       width:95% !important;
+       box-shadow: 2px 7px 18px 3px;
+        
+    }
+
 }
 
 @media only screen and (width:1024px) and (height:1366px){
@@ -415,6 +429,14 @@ h1, h2, h3, h4 {
     .navBar ul{
         height: 100vh;
     }
+
+    .home-image {
+        margin-left:22% !important;
+    }
+
+    .home-image img {
+        96%
+    }
 }
 
 /*Desktop Navbar End*/
@@ -424,16 +446,13 @@ h1, h2, h3, h4 {
     fill:#FFFFFF;
 }
 
+.home-image {
+    margin-top: 12vh;
+}
 
-img{
-    height: 20px;
-    height: 30vh;
+.home-image img{
+    height: 50vh;
     width: 100%;
-    top: 17vh;
-    box-shadow: 0px -10px 0 0px;
-    position: relative;
-    display: block;
-    
 }
 
 /*SVG CSS End*/
