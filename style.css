@@ -164,6 +164,7 @@ body{
     margin: 10px 0 0 0;
     position: absolute;
     width:100%;
+    z-index: 99;
 
 }
 /*
@@ -264,6 +265,7 @@ h1, h2, h3, h4 {
     left: 0;
     width:200px;
     box-shadow:3px 0px 20px 0px;
+    z-index: 99;
 }
 
 .navBar:hover .home-svg{
