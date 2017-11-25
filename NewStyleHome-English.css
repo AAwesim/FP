@@ -103,6 +103,7 @@ body{
     .introBar li {
         padding: 3% 0;
     }
+   
 }
 
 /*Media Queries End*/
@@ -200,21 +201,14 @@ body{
 
 }
 
+
 /*Mobile Navbar End*/
 
-/*Content page start */
-.content{
-    width:100%;
-    background-color:white;
-    display: block;
-    box-shadow: 0px -9px 0px 9px #313131;
-    top:17vh;
-    position: relative;
-    height: 50vh;
-}
+/*Home page img start */
 
 
-/*Content page end*/
+
+/*Home page img end*/
 
 
 /*Desktop Navbar Start*/
@@ -378,6 +372,14 @@ body{
     .navBar ul{
         height: 100vh;
     }
+    img{
+    height: 87vh!important;
+    margin-left: 32vh;
+    width: 84%!important;
+    display: block;
+    position: fixed;
+    border-left: solid #313131 8px;
+    }
 }
 
 /*Desktop Navbar End*/
@@ -388,7 +390,7 @@ body{
 }
 
 
-img{
+/*img{
     height: 20px;
     height: 30vh;
     width: 100%;
@@ -397,6 +399,14 @@ img{
     position: relative;
     display: block;
     
-}
+}*/
+img{
+    height: 42vh;
+    width: 100%;
+    margin-top: 12vh;
+    border-top: solid 10px;
+    border-top-color: #313131;
+    
+} 
 
 /*SVG CSS End*/
