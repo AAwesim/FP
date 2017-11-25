@@ -328,7 +328,8 @@ body{
 
 
     .content {
-        width:769px;
+        /*width:769px;*/
+        width:50%;
         left:26%;
         box-shadow: 0 10px 10px 0;
         height: 100vh;
@@ -336,11 +337,22 @@ body{
 
 }
 
-@media only screen and (max-height: 725px) and (min-width: 769px) {
+@media only screen and (width:1024px) and (height:1366px){
+    .mobile-navBar {
+        visibility: visible; 
+    }
+
+    .navBar {
+        visibility: hidden;
+    }
 
     .content {
-        left:22%;
+        width: 100%;
+        left:0;
     }
+}
+
+@media only screen and (max-height: 725px) and (min-width: 769px) {
 
     .navBar {
         margin: 0 0;
