@@ -97,7 +97,7 @@ body{
 }
 
 
-/* Media Queries*/
+/* Media Querie phone */
 
 @media only screen and (max-width: 768px) {
     .introBar ul {
@@ -222,9 +222,17 @@ body{
     position: absolute;
 }
 
+
+h1, h2, h3, h4 {
+
+  text-align: center;
+  font-family: arial;
+
+}
+
 .content p {
     text-align: justify;
-    font: 1em Helvetica;
+    font: 1em arial;
 }
 
 .inner-content {
@@ -246,12 +254,7 @@ body{
 
 }
 
-h1, h2, h3, h4 {
 
-  text-align: center;
-  font-family: arial;
-
-}
 
 /*Content page end*/
 
