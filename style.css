@@ -10,6 +10,18 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /** Introside start *******************************************/
 .content-wrapper-intro{
     background:URL(WHITE.jpg) ;
@@ -56,10 +68,9 @@ body{
     display:inherit;
     border: solid;
 
-
-
-    
 }
+
+
 .introBar li a:hover{
     margin: 0px;
     background-color: #ffffff;
@@ -114,6 +125,17 @@ body{
 /*Media Queries End*/
 
 /** Introside slutt ********************************/
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Mobile Navbar*/
@@ -212,6 +234,19 @@ body{
 
 /*Mobile Navbar End*/
 
+
+
+
+
+
+
+
+
+/*Content page start */
+/*Content page start */
+/*Content page start */
+/*Content page start */
+/*Content page start */
 /*Content page start */
 .content{
     width:100%;
@@ -259,13 +294,34 @@ h1, h2, h3, h4 {
 }
 
 img {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    border: 1px solid black;
 }
 
 .imgColors {
+    padding-bottom: 1em;
     width: 100%;
     overflow:auto;
+}
+
+.images p {
+    width: 40%;
+} 
+
+.leftimagetext {
+    float: left;
+}
+
+.rightimagetext {
+    float: right;
+}
+
+.rightimagetext {
+    text-align: left;
+}
+
+div .imgColors {
+    padding-top: 0vh;
+    margin-top: 0vh;
 }
 
 .imgColors img{
@@ -287,6 +343,27 @@ img {
 
 
 /*Content page end*/
+/*Content page end*/
+/*Content page end*/
+/*Content page end*/
+/*Content page end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Desktop Navbar Start*/
@@ -305,7 +382,6 @@ img {
     /*fill:purple;*/ 
     fill:#D131FF;
 }
-
 
 .navBar:hover .problem-svg{
     /*fill:#0C00FF;*/
