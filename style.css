@@ -305,6 +305,8 @@ img {
 
 .images p {
     width: 40%;
+    text-decoration:underline;
+
 } 
 
 .leftimagetext {
@@ -315,7 +317,7 @@ img {
     float: right;
 }
 
-.rightimagetext {
+#SimulatedColorBlindnessImgText {
     text-align: left;
 }
 
