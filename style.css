@@ -233,6 +233,7 @@ h1, h2, h3, h4 {
 .content p {
     text-align: justify;
     font: 1em arial;
+    width: 100%;
 }
 
 .inner-content {
@@ -251,8 +252,37 @@ h1, h2, h3, h4 {
 }
 
 .bottom-p {
+    
     padding-bottom: 1em;
 
+}
+
+img {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.imgColors {
+    width: 100%;
+    height: auto;
+}
+
+.imgColors img{
+    box-sizing: box-border;
+}
+
+.imgleft {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+}
+
+.imgright {
+    display: inline-block;
+    float: right;
+    width: 40%;
+    margin-left: 10%;
 }
 
 
