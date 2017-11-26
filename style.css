@@ -248,13 +248,14 @@ h1, h2, h3, h4 {
 }
 .intro-problem p {
     text-align: justify;
-    
 }
 
 .bottom-p {
+<<<<<<< HEAD
     clear:both;
+=======
+>>>>>>> 8408b074743e860607613759c7d566d7f4a60970
     padding-bottom: 1em;
-
 }
 
 img {
