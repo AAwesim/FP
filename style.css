@@ -6,7 +6,7 @@ html,body {
 }
 
 body{  
-    background-color: antiquewhite;
+    background-color: gainsboro;
 }
 
 
@@ -196,45 +196,43 @@ body{
     height:8px;
     width:100%;
     background-color:#a4a5c3;
-}*/
+    }*/
 
-.mobile-dropdown-content {
-    display:none;
-    position: absolute;
-    width:100%;
-    z-index: 1;
-    background-color: #313131;
-}
+    .mobile-dropdown-content {
+        display:none;
+        position: absolute;
+        width:100%;
+        z-index: 1;
+        background-color: #313131;
+    }
 
-.mobile-dropdown-content ul{
-    list-style: none;
-}
+    .mobile-dropdown-content ul{
+        list-style: none;
+    }
 
-.mobile-dropdown-content li {
-    display: inline-block;
-    width:60px;
-    padding:0 5%;
-}
+    .mobile-dropdown-content li {
+        display: inline-block;
+        width:60px;
+        padding:0 5%;
+    }
 
-.mobile-dropdown-content a {
-    text-decoration: none;
-    display:block;
-}
+    .mobile-dropdown-content a {
+        text-decoration: none;
+        display:block;
+    }
 
-.mobile-dropdown-content span {
-    display: block;
-    text-align: center;
-    width:auto;
-    color:white;
-    font-family: 'Barlow Condensed', 'Helvetica', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
+    .mobile-dropdown-content span {
+        display: block;
+        text-align: center;
+        width:auto;
+        color:white;
+        font-family: 'Barlow Condensed', 'Helvetica', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
 
-}
+    }
 
-/*Mobile Navbar End*/
-
-
+    /*Mobile Navbar End*/
 
 
 
@@ -242,37 +240,39 @@ body{
 
 
 
-/*Content page start */
-/*Content page start */
-/*Content page start */
-/*Content page start */
-/*Content page start */
-/*Content page start */
-.content{
-    width:100%;
-    background-color:white;
-    display: block;
-    box-shadow: 0 -9px 0px 9px #313131;
-    top:17vh;
-    position: absolute;
-}
 
 
-h1, h2, h3, h4 {
+    /*Content page start */
+    /*Content page start */
+    /*Content page start */
+    /*Content page start */
+    /*Content page start */
+    /*Content page start */
+    .content{
+        width:100%;
+        background-color:white;
+        display: block;
+        box-shadow: 0 -9px 0px 9px #313131;
+        top:17vh;
+        position: absolute;
+    }
 
-  text-align: center;
-  font-family: arial;
 
-}
+    h1, h2, h3, h4 {
 
-.content p {
+      text-align: center;
+      font-family: arial;
+
+  }
+
+  .content p {
     text-align: justify;
     font: 1em arial;
     width: 100%;
 }
 
 .inner-content {
-   
+
     padding: 0px 5vh;
 
 }
@@ -286,10 +286,10 @@ h1, h2, h3, h4 {
 }
 
 .bottom-p {
-<<<<<<< HEAD
+    <<<<<<< HEAD
     clear:both;
-=======
->>>>>>> 8408b074743e860607613759c7d566d7f4a60970
+    =======
+    >>>>>>> 8408b074743e860607613759c7d566d7f4a60970
     padding-bottom: 1em;
 }
 
@@ -425,7 +425,7 @@ div .imgColors {
 
 .navBar a:hover {
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 .navBar a:hover .home-svg {
@@ -493,11 +493,11 @@ div .imgColors {
 
     .home-image img {
 
-       height:83vh !important;
-       width:95% !important;
-       box-shadow: 2px 7px 18px 3px;
-        
-    }
+     height:83vh !important;
+     width:95% !important;
+     box-shadow: 2px 7px 18px 3px;
+
+ }
 
 }
 
@@ -526,7 +526,7 @@ div .imgColors {
 
     .navBar a {
         -webkit-transform: scale(0.7);
-                transform: scale(0.7);
+        transform: scale(0.7);
     }
 
     .navBar li {
@@ -535,9 +535,9 @@ div .imgColors {
     }
 
     .navBar a:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-}
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
 
     .navBar ul{
         height: 100vh;
