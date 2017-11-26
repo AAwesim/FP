@@ -252,7 +252,7 @@ h1, h2, h3, h4 {
 }
 
 .bottom-p {
-    
+    clear:both;
     padding-bottom: 1em;
 
 }
@@ -264,7 +264,7 @@ img {
 
 .imgColors {
     width: 100%;
-    height: auto;
+    overflow:auto;
 }
 
 .imgColors img{
@@ -275,14 +275,12 @@ img {
     display: inline-block;
     float: left;
     width: 40%;
-    margin-right: 10%;
 }
 
 .imgright {
     display: inline-block;
     float: right;
     width: 40%;
-    margin-left: 10%;
 }
 
 
