@@ -6,7 +6,7 @@ html,body {
 }
 
 body{  
-    background-color: gainsboro;
+    background-color: #9E9D9D/*gainsboro*/;
 }
 
 
@@ -482,7 +482,7 @@ div .imgColors {
         /*width:769px;*/
         width:55%;
         left:26%;
-        box-shadow: 0 10px 10px 0;
+        box-shadow: /*0 10px 10px 0;*/ 2px 2px 9px 5px #313131;
     }
 
     .home-image {
