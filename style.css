@@ -6,8 +6,20 @@ html,body {
 }
 
 body{  
-    background-color: antiquewhite;
+    background-color: #9E9D9D/*gainsboro*/;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /** Introside start *******************************************/
@@ -56,10 +68,9 @@ body{
     display:inherit;
     border: solid;
 
-
-
-    
 }
+
+
 .introBar li a:hover{
     margin: 0px;
     background-color: #ffffff;
@@ -97,7 +108,7 @@ body{
 }
 
 
-/* Media Queries*/
+/* Media Querie phone */
 
 @media only screen and (max-width: 768px) {
     .introBar ul {
@@ -114,6 +125,17 @@ body{
 /*Media Queries End*/
 
 /** Introside slutt ********************************/
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Mobile Navbar*/
@@ -164,6 +186,7 @@ body{
     margin: 10px 0 0 0;
     position: absolute;
     width:100%;
+    z-index: 99;
 
 }
 /*
@@ -173,64 +196,91 @@ body{
     height:8px;
     width:100%;
     background-color:#a4a5c3;
-}*/
+    }*/
 
-.mobile-dropdown-content {
-    display:none;
-    position: absolute;
-    width:100%;
-    z-index: 1;
-    background-color: #313131;
-}
+    .mobile-dropdown-content {
+        display:none;
+        position: absolute;
+        width:100%;
+        z-index: 1;
+        background-color: #313131;
+    }
 
-.mobile-dropdown-content ul{
-    list-style: none;
-}
+    .mobile-dropdown-content ul{
+        list-style: none;
+    }
 
-.mobile-dropdown-content li {
-    display: inline-block;
-    width:60px;
-    padding:0 5%;
-}
+    .mobile-dropdown-content li {
+        display: inline-block;
+        width:60px;
+        padding:0 5%;
+    }
 
-.mobile-dropdown-content a {
-    text-decoration: none;
-    display:block;
-}
+    .mobile-dropdown-content a {
+        text-decoration: none;
+        display:block;
+    }
 
-.mobile-dropdown-content span {
-    display: block;
-    text-align: center;
-    width:auto;
-    color:white;
-    font-family: 'Barlow Condensed', 'Helvetica', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
+    .mobile-dropdown-content span {
+        display: block;
+        text-align: center;
+        width:auto;
+        color:white;
+        font-family: 'Barlow Condensed', 'Helvetica', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
 
-}
+    }
 
-/*Mobile Navbar End*/
+    /*Mobile Navbar End*/
 
-/*Content page start */
-.content{
-    width:100%;
-    background-color:white;
-    display: block;
-    box-shadow: 0px 0px 15px 5px #505050;
-    top:17vh;
-    position: absolute;
-}
 
-.content p {
+
+
+
+
+
+
+
+    /*Content page start */
+    /*Content page start */
+    /*Content page start */
+    /*Content page start */
+    /*Content page start */
+    /*Content page start */
+    .content{
+        width:100%;
+        background-color:white;
+        display: block;
+        box-shadow: 0 -9px 0px 9px #313131;
+        top:17vh;
+        position: absolute;
+    }
+
+
+    h1, h2, h3, h4 {
+
+      text-align: center;
+      font-family: arial;
+
+  }
+
+  .content p {
     text-align: justify;
+<<<<<<< HEAD
     font: 1em Helvetica;
     
     
+=======
+    font: 1em arial;
+    width: 100%;
+>>>>>>> a0750b00a9a759cb73be9a77efd3150df24aac68
 }
 
 .inner-content {
-   
-    padding: 0px 2vh 0vh 2vh;
+
+    padding: 0px 5vh;
+
 }
 
 .inner-content div {
@@ -239,14 +289,21 @@ body{
 }
 .intro-problem p {
     text-align: justify;
-    
 }
 
 .bottom-p {
+    <<<<<<< HEAD
+    clear:both;
+    =======
+    >>>>>>> 8408b074743e860607613759c7d566d7f4a60970
     padding-bottom: 1em;
-
 }
 
+img {
+    border: 1px solid black;
+}
+
+<<<<<<< HEAD
  h2{
 
   text-align: left;
@@ -256,13 +313,83 @@ body{
 }
 h1{
     text-align: center;
+=======
+.imgColors {
+    padding-bottom: 1em;
+    width: 100%;
+    overflow:auto;
+}
 
+.images p {
+    width: 40%;
+    text-decoration:underline;
+
+} 
+
+.leftimagetext {
+    float: left;
+}
+
+.rightimagetext {
+    float: right;
+}
+>>>>>>> a0750b00a9a759cb73be9a77efd3150df24aac68
+
+#SimulatedColorBlindnessImgText {
+    text-align: left;
+}
+
+<<<<<<< HEAD
+
+
+
+=======
+div .imgColors {
+    padding-top: 0vh;
+    margin-top: 0vh;
+}
+
+.imgColors img{
+    box-sizing: box-border;
+}
+
+.imgleft {
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+.imgright {
+    display: inline-block;
+    float: right;
+    width: 40%;
 }
 
 
 
-
 /*Content page end*/
+/*Content page end*/
+/*Content page end*/
+/*Content page end*/
+>>>>>>> a0750b00a9a759cb73be9a77efd3150df24aac68
+/*Content page end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Desktop Navbar Start*/
@@ -274,13 +401,13 @@ h1{
     left: 0;
     width:200px;
     box-shadow:3px 0px 20px 0px;
+    z-index: 99;
 }
 
 .navBar:hover .home-svg{
     /*fill:purple;*/ 
     fill:#D131FF;
 }
-
 
 .navBar:hover .problem-svg{
     /*fill:#0C00FF;*/
@@ -322,7 +449,7 @@ h1{
 
 .navBar a:hover {
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 .navBar a:hover .home-svg {
@@ -379,8 +506,22 @@ h1{
         /*width:769px;*/
         width:55%;
         left:26%;
-        box-shadow: 0 10px 10px 0;
+        box-shadow: /*0 10px 10px 0;*/ 2px 2px 9px 5px #313131;
     }
+
+    .home-image {
+        margin-left: 14% !important;
+        margin-top:17vh !important;
+        box-sizing: border-box;
+    }
+
+    .home-image img {
+
+     height:83vh !important;
+     width:95% !important;
+     box-shadow: 2px 7px 18px 3px;
+
+ }
 
 }
 
@@ -409,7 +550,7 @@ h1{
 
     .navBar a {
         -webkit-transform: scale(0.7);
-                transform: scale(0.7);
+        transform: scale(0.7);
     }
 
     .navBar li {
@@ -418,12 +559,20 @@ h1{
     }
 
     .navBar a:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-}
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
 
     .navBar ul{
         height: 100vh;
+    }
+
+    .home-image {
+        margin-left:22% !important;
+    }
+
+    .home-image img {
+        96%
     }
 }
 
@@ -457,16 +606,13 @@ h1{
     fill:#FFFFFF;
 }
 
+.home-image {
+    margin-top: 12vh;
+}
 
-img{
-    height: 20px;
-    height: 30vh;
+.home-image img{
+    height: 50vh;
     width: 100%;
-    top: 17vh;
-    box-shadow: 0px -10px 0 0px;
-    position: relative;
-    display: block;
-    
 }
 
 /*SVG CSS End*/
