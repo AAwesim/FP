@@ -328,7 +328,7 @@ div .imgColors {
     width: 40%;
 }
 
- h2{
+h2{
 
   text-align: left;
      font-family: arial;
@@ -364,7 +364,29 @@ h1{
 }
 
 
+
 /*Content page end*/
+/*Content page end*/
+/*Content page end*/
+/*Content page end*/
+/*Content page end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Desktop Navbar Start*/
@@ -383,7 +405,6 @@ h1{
     /*fill:purple;*/ 
     fill:#D131FF;
 }
-
 
 .navBar:hover .problem-svg{
     /*fill:#0C00FF;*/
@@ -482,9 +503,23 @@ h1{
         /*width:769px;*/
         width:55%;
         left:26%;
-        -webkit-box-shadow: 0 10px 10px 0;
+              -webkit-box-shadow: 0 10px 10px 0;
                 box-shadow: 0 10px 10px 0;
         border-top:none;
+    }
+
+    .home-image {
+        margin-left: 14% !important;
+        margin-top:17vh !important;
+        box-sizing: border-box;
+    }
+
+    .home-image img {
+
+     height:83vh !important;
+     width:95% !important;
+     box-shadow: 2px 7px 18px 3px;
+
     }
 
 }
@@ -526,10 +561,18 @@ h1{
     .navBar a:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
-}
+    }
 
     .navBar ul{
         height: 100vh;
+    }
+
+    .home-image {
+        margin-left:22% !important;
+    }
+
+    .home-image img {
+        96%
     }
 }
 
@@ -561,6 +604,15 @@ h1{
 /*SVG CSS*/
 .st {
     fill:#FFFFFF;
+}
+
+.home-image {
+    margin-top: 12vh;
+}
+
+.home-image img{
+    height: 50vh;
+    width: 100%;
 }
 
 /*
