@@ -57,7 +57,6 @@ body{
     border: solid;
 
 
-
     
 }
 .introBar li a:hover{
@@ -97,7 +96,7 @@ body{
 }
 
 
-/* Media Queries*/
+/* Media Queries phone*/
 
 @media only screen and (max-width: 768px) {
     .introBar ul {
@@ -114,6 +113,17 @@ body{
 /*Media Queries End*/
 
 /** Introside slutt ********************************/
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Mobile Navbar*/
@@ -164,6 +174,7 @@ body{
     margin: 10px 0 0 0;
     position: absolute;
     width:100%;
+    z-index: 99;
 
 }
 /*
@@ -211,7 +222,20 @@ body{
 
 /*Mobile Navbar End*/
 
-/*Content page start */
+
+
+
+
+
+
+
+
+    /*Content page start */
+    /*Content page start */
+    /*Content page start */
+    /*Content page start */
+    /*Content page start */
+    /*Content page start */
 .content{
     width:100%;
     background-color:white;
@@ -221,35 +245,87 @@ body{
     position: absolute;
 }
 
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: arial;
+}
+
 .content p {
     text-align: justify;
-    font: 1em Helvetica;
-    
-    
+    font: 1em arial;
+    width: 100%;
 }
 
 .inner-content {
-   
+
     padding: 0px 5vh;
+
 }
 
 .inner-content div {
     padding-top: 2vh;
     padding-bottom: 0vh;
 }
-
-#faq-content {
-    padding:0 2vh;
-}
-
 .intro-problem p {
     text-align: justify;
-    
 }
 
 .bottom-p {
+    <<<<<<< HEAD
+    clear:both;
+    =======
+    >>>>>>> 8408b074743e860607613759c7d566d7f4a60970
     padding-bottom: 1em;
+}
 
+img {
+    border: 1px solid black;
+}
+
+.imgColors {
+    padding-bottom: 1em;
+    width: 100%;
+    overflow:auto;
+}
+
+.images p {
+    width: 40%;
+    text-decoration:underline;
+
+} 
+
+.leftimagetext {
+    float: left;
+}
+
+.rightimagetext {
+    float: right;
+}
+
+#SimulatedColorBlindnessImgText {
+    text-align: left;
+}
+
+div .imgColors {
+    padding-top: 0vh;
+    margin-top: 0vh;
+}
+
+.imgColors img{
+    box-sizing: box-border;
+}
+
+.imgleft {
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+.imgright {
+    display: inline-block;
+    float: right;
+    width: 40%;
 }
 
  h2{
@@ -261,6 +337,7 @@ body{
 }
 h1{
     text-align: center;
+
 
 }
 
