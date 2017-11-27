@@ -224,6 +224,8 @@ body{
 .content p {
     text-align: justify;
     font: 1em Helvetica;
+    
+    
 }
 
 .inner-content {
@@ -245,12 +247,20 @@ body{
 
 }
 
-h1, h2, h3, h4 {
+ h2{
 
-  text-align: center;
-  font-family: arial;
+  text-align: left;
+     font-family: arial;
+     font-size: 90%;
+     
+}
+h1{
+    text-align: center;
 
 }
+
+
+
 
 /*Content page end*/
 
@@ -418,6 +428,29 @@ h1, h2, h3, h4 {
 }
 
 /*Desktop Navbar End*/
+
+/* Navigation buttons - FAQ */
+
+.navigatelinks ul {
+    list-style-type: none;
+    width: 100%;
+    border:1px solid #444;
+    margin: 0;
+    padding: 0;
+}
+
+.navigatelinks  li a {
+    display: block;
+    color:black;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+
+.navigatelinks li {
+    text-align: center;
+    border-bottom:solid 2px;
+}
 
 /*SVG CSS*/
 .st {
