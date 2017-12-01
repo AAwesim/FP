@@ -234,6 +234,7 @@ background-color:#a4a5c3;
 .logo-wrapper {
     display: inline-block;
     position: absolute;
+    margin: 8px 0 0 0;
     top:0;
     width:100%;
     max-height: 70px;
