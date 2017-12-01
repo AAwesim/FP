@@ -621,13 +621,18 @@ body{
 
 /* Navigation buttons - FAQ */
 
+.navigatelinks {
+    width:50%;
+    margin:0 25%;
+}
+
 .navigatelinks ul {
     list-style-type: none;
     width: 100%;
     border:1px solid #444;
     margin: 0;
     padding: 0;
-    background-color: #FAD9DD;
+    background-color: #fff4f5;
 }
 
 .navigatelinks  li a {
