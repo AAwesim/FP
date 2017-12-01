@@ -627,7 +627,7 @@ body{
     border:1px solid #444;
     margin: 0;
     padding: 0;
-    background-color: gainsboro;
+    background-color: #FAD9DD;
 }
 
 .navigatelinks  li a {
@@ -645,12 +645,12 @@ body{
 
 
 .navigatelinks  li a:hover {
-    background-color: grey;
+    background-color:darkred;
     color: ghostwhite;
 }
 
 .navigatelinks  li a:focus {
-    background-color: grey;
+    background-color: darkred;
     color: ghostwhite;
 }
 
