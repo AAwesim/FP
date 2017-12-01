@@ -250,27 +250,25 @@ body{
         font-family: arial;
     }
 
-<<<<<<< HEAD
     .content p {
         text-align: justify;
         font: 1em arial;
         width: 100%;
     }
-=======
-h2 {
-    text-align: left;
-}
 
-h2 {
-    text-align: left;
-}
+    h2 {
+        text-align: left;
+    }
 
-.content p {
-    text-align: justify;
-    font: 1em arial;
-    width: 100%;
-}
->>>>>>> 07e9ac2f88b0d6ae9c8e9e5fd656f6823fb72a04
+    h2 {
+        text-align: left;
+    }
+
+    .content p {
+        text-align: justify;
+        font: 1em arial;
+        width: 100%;
+    }
 
     .inner-content {
 
@@ -287,10 +285,7 @@ h2 {
     }
 
     .bottom-p {
-        <<<<<<< HEAD
         clear:both;
-        =======
-        >>>>>>> 8408b074743e860607613759c7d566d7f4a60970
         padding-bottom: 1em;
     }
 
@@ -343,8 +338,6 @@ h2 {
         width: 40%;
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     h2{
 
       text-align: left;
@@ -357,26 +350,20 @@ h2 {
 
 
 }
-=======
->>>>>>> 07e9ac2f88b0d6ae9c8e9e5fd656f6823fb72a04
-=======
->>>>>>> 07e9ac2f88b0d6ae9c8e9e5fd656f6823fb72a04
+
 
 .faq h2 {
     -webkit-text-decoration-color:
     margin-left: ;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     text-decoration-color:
-    margin-left: ;2%;
-=======
-            text-decoration-color:
     margin-left: 2%;
->>>>>>> 07e9ac2f88b0d6ae9c8e9e5fd656f6823fb72a04
-=======
-            text-decoration-color:
+
+    text-decoration-color:
     margin-left: 2%;
->>>>>>> 07e9ac2f88b0d6ae9c8e9e5fd656f6823fb72a04
+    text-decoration-color:
+    margin-left: 2%;
+
     font-style: italic;
     text-align: left;
     margin: 1em;
@@ -389,8 +376,7 @@ h2 {
 
 .faq {
     font-family: 'Roboto', 'Arial', sans-serif;
-    margin-left: 2em;
-    margin-right: 2em;
+
     
     
 }
