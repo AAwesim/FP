@@ -431,6 +431,10 @@ body{
         position: relative;
         margin-top: 30vh;
     }
+
+    .innerhometext {
+        list-style-type: square;
+    }
     
     .header {
         font-size: 1.5em;
