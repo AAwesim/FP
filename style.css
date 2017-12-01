@@ -645,6 +645,15 @@ h1  {
     margin-left: 19%;
    }
 
+   .logo-wrapper {
+    max-width: 100%;
+    text-align: center;
+   }
+
+   .logo-wrapper img {
+    margin-left: 5%;
+   }
+
 }
 
 @media only screen and (width:1024px) and (height:1366px){
