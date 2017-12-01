@@ -9,6 +9,10 @@ body{
     background-color: brown;
 }
 
+#home-body {
+    background-color: white;
+}
+
 
 /** Introside start *******************************************/
 .content-wrapper-intro{
@@ -391,7 +395,7 @@ h1  {
 
     .homebackground {
         width: 100%;
-        height: 80%;
+        height: 100%;
         background-image: url(background1.jpg);
         background-position: center center;
         background-attachment: fixed;
@@ -410,12 +414,15 @@ h1  {
     .hometext {
         position: fixed;
         z-index: 2;
-        top: 27%;
-        margin-left: 22%;
+        top: 17%;
+        margin-left: 5%;
         font-family: 'Roboto Condensed', sans-serif;
         color: white;
         text-shadow: black 2px 2px 2px;
         filter: none;
+        padding:0 25px;
+        border-radius: 40px;
+        background-color: rgba(70, 70, 70, 0.45);
     }
     
     .innerhometext .homeli {
@@ -434,7 +441,7 @@ h1  {
 
     #orange {
         color: #313131;
-        text-shadow: 2px 2px 2px #dadada;
+        text-shadow: none;
     }
 
     .homeli {
@@ -613,7 +620,8 @@ h1  {
 
    .hometext {
     font-size: 1.3em;
-    top:15%;
+    top:9%;
+    margin-left: 15%;
    }
 
 }
