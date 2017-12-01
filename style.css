@@ -485,6 +485,31 @@ body{
 .navBar a:hover .faq-svg {
     fill:#FFACAC;
 }
+
+.navBar a:focus {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.navBar a:focus .home-svg {
+    /*fill: #FF00EA;*/
+    fill: #FF5DFD
+}
+
+.navBar a:focus .problem-svg {
+    fill:#6DECFF;
+}
+
+.navBar a:focus .solution-svg {
+    fill:yellow;
+}
+
+
+.navBar a:focus .faq-svg {
+    fill:#FFACAC;
+}
+
+
 .navBar span {  
     display: block;
     text-align: center;
@@ -582,6 +607,11 @@ body{
         transform: scale(1.2);
     }
 
+    .navBar a:focus {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
     .navBar ul{
         height: 100vh;
     }
@@ -615,6 +645,11 @@ body{
 
 
 .navigatelinks  li a:hover {
+    background-color: grey;
+    color: ghostwhite;
+}
+
+.navigatelinks  li a:focus {
     background-color: grey;
     color: ghostwhite;
 }
