@@ -261,6 +261,10 @@ h2 {
     text-align: left;
 }
 
+h2 {
+    text-align: left;
+}
+
 .content p {
     text-align: justify;
     font: 1em arial;
@@ -340,6 +344,7 @@ h2 {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     h2{
 
       text-align: left;
@@ -354,13 +359,20 @@ h2 {
 }
 =======
 >>>>>>> 07e9ac2f88b0d6ae9c8e9e5fd656f6823fb72a04
+=======
+>>>>>>> 07e9ac2f88b0d6ae9c8e9e5fd656f6823fb72a04
 
 .faq h2 {
     -webkit-text-decoration-color:
     margin-left: ;
 <<<<<<< HEAD
+<<<<<<< HEAD
     text-decoration-color:
     margin-left: ;2%;
+=======
+            text-decoration-color:
+    margin-left: 2%;
+>>>>>>> 07e9ac2f88b0d6ae9c8e9e5fd656f6823fb72a04
 =======
             text-decoration-color:
     margin-left: 2%;
