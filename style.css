@@ -655,7 +655,7 @@ body{
 }
 
 .navigatelinks li:last-child {
-    border-bottom: solid 1.5px;
+    border-bottom: none;
 }
 
 /*SVG CSS*/
