@@ -32,8 +32,7 @@ body{
     color: white;
 }
 .test{
-    display: none;
-    
+    display: none;   
 }
 
 
@@ -180,175 +179,167 @@ body{
 /*
 .mobile-spacing{
 
-    display:block;
-    height:8px;
+display:block;
+height:8px;
+width:100%;
+background-color:#a4a5c3;
+}*/
+
+.mobile-dropdown-content {
+    display:none;
+    position: absolute;
     width:100%;
-    background-color:#a4a5c3;
-    }*/
+    z-index: 1;
+    background-color: #313131;
+}
 
-    .mobile-dropdown-content {
-        display:none;
-        position: absolute;
-        width:100%;
-        z-index: 1;
-        background-color: #313131;
-    }
+.mobile-dropdown-content ul{
+    list-style: none;
+}
 
-    .mobile-dropdown-content ul{
-        list-style: none;
-    }
+.mobile-dropdown-content li {
+    display: inline-block;
+    width:60px;
+    padding:0 5%;
+}
 
-    .mobile-dropdown-content li {
-        display: inline-block;
-        width:60px;
-        padding:0 5%;
-    }
+.mobile-dropdown-content a {
+    text-decoration: none;
+    display:block;
+}
 
-    .mobile-dropdown-content a {
-        text-decoration: none;
-        display:block;
-    }
-
-    .mobile-dropdown-content span {
-        display: block;
-        text-align: center;
-        width:auto;
-        color:white;
-        font-family: 'Barlow Condensed', 'Helvetica', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 0.06em;
-
-    }
-
-    /*Mobile Navbar End*/
-
-
-
-
-
-
-
-
-
-    /*Content page start */
-    /*Content page start */
-    /*Content page start */
-    /*Content page start */
-    /*Content page start */
-    /*Content page start */
-    .content{
-        width:100%;
-        background-color:white;
-        display: block;
-        border-top: solid 15px #313131;
-        position: relative;
-    }
-
-
-    h1, h2, h3, h4 {
-        text-align: center;
-        font-family: arial;
-    }
-
-    .content p {
-        text-align: justify;
-        font: 1em arial;
-        width: 100%;
-    }
-
-    h2 {
-        text-align: left;
-    }
-
-    h2 {
-        text-align: left;
-    }
-
-    .content p {
-        text-align: justify;
-        font: 1em arial;
-        width: 100%;
-    }
-
-    .inner-content {
-
-        padding: 0px 5vh;
-
-    }
-
-    .inner-content div {
-        padding-top: 2vh;
-        padding-bottom: 1vh;
-    }
-    .intro-problem p {
-        text-align: justify;
-    }
-
-    .bottom-p {
-        clear:both;
-        padding-bottom: 1em;
-    }
-
-    img {
-        border: 1px solid black;
-    }
-
-    .imgColors {
-        padding-bottom: 1em;
-        width: 100%;
-        overflow:auto;
-    }
-
-    .images p {
-        width: 40%;
-        text-decoration:underline;
-
-    } 
-
-    .leftimagetext {
-        float: left;
-    }
-
-    .rightimagetext {
-        float: right;
-    }
-
-    #SimulatedColorBlindnessImgText {
-        text-align: left;
-    }
-
-    div .imgColors {
-        padding-top: 0vh;
-        margin-top: 0vh;
-    }
-
-    .imgColors img{
-        box-sizing: box-border;
-    }
-
-    .imgleft {
-        display: inline-block;
-        float: left;
-        width: 40%;
-    }
-
-    .imgright {
-        display: inline-block;
-        float: right;
-        width: 40%;
-    }
-
-    h2{
-
-      text-align: left;
-      font-family: arial;
-      font-size: 90%;
-
-  }
-  h1{
+.mobile-dropdown-content span {
+    display: block;
     text-align: center;
+    width:auto;
+    color:white;
+    font-family: 'Barlow Condensed', 'Helvetica', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+
+}
+
+/*Mobile Navbar End*/
 
 
+
+
+
+
+
+
+
+/*Content page start */
+/*Content page start */
+/*Content page start */
+/*Content page start */
+/*Content page start */
+/*Content page start */
+.content{
+    width:100%;
+    background-color:white;
+    display: block;
+    border-top: solid 15px #313131;
+    position: relative;
+}
+
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: arial;
+}
+
+.content p {
+    text-align: justify;
+    font: 1em arial;
+    width: 100%;
+}
+
+h2 {
+    text-align: left;
+}
+
+.content p {
+    text-align: justify;
+    font: 1em arial;
+    width: 100%;
+}
+
+.inner-content {
+
+    padding: 0px 5vh;
+
+}
+
+.inner-content div {
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+.intro-problem p {
+    text-align: justify;
+}
+
+.bottom-p {
+    clear:both;
+    padding-bottom: 1em;
+}
+
+.imgColors {
+    padding-bottom: 1em;
+    width: 100%;
+    overflow:auto;
+}
+
+.images p {
+    width: 40%;
+    text-decoration:underline;
+} 
+
+.leftimagetext {
+    float: left;
+}
+
+.rightimagetext {
+    float: right;
+}
+
+
+div .imgColors {
+    padding-top: 0vh;
+    margin-top: 0vh;
+}
+
+#UtvidelseFargeblindhet{
+    width: 100%;
+     
+}
+
+.imgColors img{
+     border: 1px solid black;
+    box-sizing: box-border;
+}
+
+.imgleft {
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+.imgright {
+    display: inline-block;
+    float: right;
+    width: 40%;
+}
+
+h2{
+
+  text-align: left;
+  font-family: arial;
+  font-size: 90%;
+}
+
+h1  {
+    text-align: center;
 }
 
 
