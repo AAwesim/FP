@@ -586,6 +586,7 @@ h1{
     border:1px solid #444;
     margin: 0;
     padding: 0;
+    background-color: gainsboro;
 }
 
 .navigatelinks  li a {
@@ -599,6 +600,16 @@ h1{
 .navigatelinks li {
     text-align: center;
     border-bottom:solid 2px;
+}
+
+
+.navigatelinks  li a:hover {
+    background-color: grey;
+    color: ghostwhite;
+}
+
+.navigatelinks li:last-child {
+    border-bottom: solid 1.5px;
 }
 
 /*SVG CSS*/
