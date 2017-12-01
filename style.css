@@ -547,8 +547,8 @@ body{
         /*width:769px;*/
         width:55%;
         left:26%;
-        -webkit-box-shadow: 0 10px 10px 0;
-        box-shadow: 0 10px 10px 0;
+        -webkit-box-shadow: 0 0 10px 0;
+        box-shadow: 0 0 10px 0;
         border-top:none;
     }
 
@@ -692,6 +692,7 @@ img{
     footer{
         height:150px;
         width: 100%;
+        margin-top: 30px;
         background-color: #313131;
         position: relative;
         display: block;
