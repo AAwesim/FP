@@ -30,8 +30,8 @@ body{
     font-size: 30px;
     color: aliceblue;
     width:100%;
-    
 }
+
 .introBar a{
     color: white;
 }
@@ -289,12 +289,11 @@ h2 {
     text-align: justify;
     font: 1em arial;
     width: 100%;
+    border-bottom: grey 1px solid;
 }
 
 .inner-content {
-
     padding: 0px 5vh;
-
 }
 
 .inner-content div {
