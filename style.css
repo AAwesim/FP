@@ -656,6 +656,11 @@ h1  {
     margin-left: 5%;
    }
 
+   #UtvidelseFargeblindhet{
+    width: 70%;
+    
+     
+}
 }
 
 @media only screen and (width:1024px) and (height:1366px){
