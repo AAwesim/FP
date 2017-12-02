@@ -267,6 +267,7 @@ background-color:#a4a5c3;
     display: block;
     border-top: solid 15px #313131;
     position: relative;
+    z-index: 1;
 }
 
 
