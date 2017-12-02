@@ -282,10 +282,6 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
-h2 {
-    text-align: left;
-}
-
 .content p {
     text-align: justify;
     font: 1em arial;
@@ -338,7 +334,10 @@ div .imgColors {
 
 #UtvidelseFargeblindhet{
     width: 100%;
-     
+}
+
+#Epilepsiimg {
+    width: 100%;
 }
 
 .imgColors img{
@@ -362,7 +361,7 @@ h2{
 
   text-align: left;
   font-family: arial;
-  font-size: 90%;
+  font-size: 2em;
 }
 
 h1  {
@@ -658,9 +657,11 @@ h1  {
 
    #UtvidelseFargeblindhet{
     width: 70%;
-    
-     
-}
+    }
+
+    #Epilepsiimg {
+    width: 70%;
+    }
 }
 
 @media only screen and (width:1024px) and (height:1366px){
