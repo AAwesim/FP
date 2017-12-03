@@ -58,9 +58,9 @@
 /* "Kulene" */
 .kule {
   cursor:pointer;
-  margin: 0 2px;
-  height: 13px;
-  width: 13px;
+  margin: 0 5px;
+  height: 25px;
+  width: 25px;
   display: inline-block;
   cursor:pointer;
   background-color: #313131;
@@ -71,4 +71,4 @@
 /* Fargen på kula som er aktiv */
 
 .active, .kule:hover {
-  background-color: blueviolet;
+  background-color: #AA2A2A;
