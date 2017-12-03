@@ -1,7 +1,9 @@
-
+//Denne prosedyren legger til show classen til drowdown klassen, da kommer mobil-navbaren ned.
 function drop() {
     document.getElementById("dropdown").classList.toggle("show");
 }
+
+//Denne koden er for slideshowet.
 
 var slideIndex = 1;
 showSlides(slideIndex);
