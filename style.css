@@ -360,8 +360,8 @@ div .imgColors {
 }
 
 .imgColors img{
-     border: 1px solid black;
-    box-sizing: box-border;
+ border: 1px solid black;
+ box-sizing: box-border;
 }
 
 .imgleft {
@@ -434,60 +434,60 @@ h1  {
 
 /* homepage content */
 
-    .homebackground {
-        width: 100%;
-        height: 100%;
-        background-image: url(background1.jpg);
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 0;
-        margin: auto;
-        position: fixed;
-        z-index: 0;
-        top: 0;
-        border-bottom: 5px solid black;
-        -webkit-filter: blur(2px);
-        filter: blur(2px);
-    }
+.homebackground {
+    width: 100%;
+    height: 100%;
+    background-image: url(background1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    border-bottom: 5px solid black;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
 
-    .hometext {
-        position: fixed;
-        z-index: 2;
-        top: 17%;
-        font-family: 'Roboto Condensed', sans-serif;
-        color: white;
-        text-shadow: black 2px 2px 2px;
-        filter: none;
-        padding:0 25px;
-        border-radius: 40px;
-        background-color: rgba(70, 70, 70, 0.45);
-    }
-    
-    .innerhometext .homeli {
-        position: relative;
-        margin-top: 30vh;
-    }
+.hometext {
+    position: fixed;
+    z-index: 2;
+    top: 17%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    filter: none;
+    padding:0 25px;
+    border-radius: 40px;
+    background-color: rgba(70, 70, 70, 0.45);
+}
 
-    .innerhometext {
-        list-style-type: square;
-    }
-    
-    .header {
-        font-size: 1.5em;
-        text-align: left;
-    }
+.innerhometext .homeli {
+    position: relative;
+    margin-top: 30vh;
+}
 
-    #orange {
-        color: white;
-    }
+.innerhometext {
+    list-style-type: square;
+}
 
-    .homeli {
-        font-size: 1.5em;
-    }
+.header {
+    font-size: 1.5em;
+    text-align: left;
+}
 
-    /* homepage content end */
+#orange {
+    color: white;
+}
+
+.homeli {
+    font-size: 1.5em;
+}
+
+/* homepage content end */
 
 
 
@@ -623,7 +623,6 @@ h1  {
     width:120px;
 }
 
-
 @media only screen and (min-width: 769px) {
     .mobile-navBar {
         visibility: hidden; 
@@ -632,7 +631,6 @@ h1  {
     .navBar {
         visibility: visible;
     }
-
 
     .content {
         /*width:769px;*/
@@ -643,27 +641,27 @@ h1  {
         border-top:none;
     }
 
-   .hometext {
-    font-size: 1.3em;
-    top:9%;
-    margin-left: 19%;
-   }
+    .hometext {
+        font-size: 1.3em;
+        top:9%;
+        margin-left: 19%;
+    }
 
-   .logo-wrapper {
-    max-width: 100%;
-    text-align: center;
-   }
+    .logo-wrapper {
+        max-width: 100%;
+        text-align: center;
+    }
 
-   .logo-wrapper img {
-    margin-left: 5%;
-   }
+    .logo-wrapper img {
+        margin-left: 5%;
+    }
 
-   #UtvidelseFargeblindhet{
-    width: 70%;
+    #UtvidelseFargeblindhet{
+        width: 70%;
     }
 
     #Epilepsiimg {
-    width: 70%;
+        width: 70%;
     }
 }
 
@@ -716,9 +714,23 @@ h1  {
     }
 
     .hometext {
-    font-size: 1em;
-    margin-left: 20%;
-   }
+        font-size: 1em;
+        margin-left: 20%;
+    }
+
+    /*.tekst {
+        font-size: 1.3em;
+        bottom: 15%;
+    }
+
+    .forrige, .neste {
+        font-size: 5em;
+    }
+
+    .bildenummer {
+        visibility: visible;
+    }*/
+
 }
 
 /*Desktop Navbar End*/
