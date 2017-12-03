@@ -608,7 +608,9 @@ h1  {
 }
 
 .on {
-    fill:#CB2828 !important;
+    /*fill:#CB2828 !important;*/
+    fill:#FF4200 !important;
+
 }
 
 .navBar a:hover {
