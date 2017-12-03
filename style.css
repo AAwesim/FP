@@ -255,7 +255,7 @@ background-color:#a4a5c3;
 }
 
 .logo-wrapper a {
-    z-index:2;
+    z-index:1;
     position: relative;
 }
 
@@ -291,6 +291,7 @@ h1, h2, h3, h4 {
     text-align: justify;
     font: 1em arial;
     width: 100%;
+    padding:5px 0;
 }
 
 
