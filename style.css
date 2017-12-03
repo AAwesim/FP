@@ -917,14 +917,12 @@ img{
     }
 
     .left-list {
-        width:5%;
         position: relative;
         display: inline-block;
 
     }
 
     .right-list {
-        width: 5%;
         position: relative;
         display: inline-block;
     }
