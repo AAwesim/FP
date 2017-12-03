@@ -31,7 +31,7 @@ body{
 }
 
 .introBar{
-    margin: 70px 0 0 0;
+    margin: 25px 0 0 0;
     text-align: center;
     font-size: 30px;
     color: aliceblue;
@@ -116,10 +116,30 @@ body{
 
 }
 
+.intro-logo {
+    width:100%;
+    text-align: center;
+}
+
+.intro-logo img {  
+    box-sizing: border-box;
+    width:53%;
+
+}
+
+.intro-logo a {
+    display: inline-block;
+}
+
 
 /* Media Queries phone*/
 
 @media only screen and (max-width: 768px) {
+
+    .intro-logo img {
+        width:88%;
+    }
+
     .introBar ul {
         margin: 0 10%;
         width: 80%;
