@@ -320,6 +320,12 @@ h1, h2, h3, h4 {
     font-family: arial;
 }
 
+.source-list h4 {
+    text-align: left;
+}
+
+
+
 .content p {
     text-align: justify;
     font: 1em arial;
