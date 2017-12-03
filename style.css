@@ -320,11 +320,6 @@ h1, h2, h3, h4 {
     font-family: arial;
 }
 
-.source-list h4 {
-    text-align: left;
-}
-
-
 
 .content p {
     text-align: justify;
@@ -348,13 +343,22 @@ h1, h2, h3, h4 {
     text-align: justify;
 }
 
-.source-list {
-    font-size: 1.5em;
+.source-list h4 {
+    text-align: left;
+    font-size: 0.9em ;
 }
 
 .source-list li {
     list-style: none;
+    font-size: 0.75em;
+    font-family: arial;
 }
+
+.source-list {
+    font-size: 1.3em;
+}
+
+
 
 .source-list a {
     text-decoration: none;
@@ -398,6 +402,10 @@ div .imgColors {
 
 #Epilepsiimg {
     width: 100%;
+}
+
+.big-image-content {
+    width: 100%
 }
 
 .imgColors img{
