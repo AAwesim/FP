@@ -199,7 +199,7 @@ background-color:#a4a5c3;
     display:none;
     position: absolute;
     width:100%;
-    z-index: 1;
+    z-index: 3;
     background-color: #313131;
 }
 
@@ -255,8 +255,8 @@ background-color:#a4a5c3;
 }
 
 .logo-wrapper a {
+    z-index:2;
     position: relative;
-    z-index:1000;
 }
 
 
@@ -278,7 +278,7 @@ background-color:#a4a5c3;
     display: block;
     border-top: solid 15px #313131;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 
