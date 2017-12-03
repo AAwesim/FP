@@ -575,6 +575,10 @@ h1  {
     width:60px;
 }
 
+.on {
+    fill:brown !important;
+}
+
 .navBar a:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
