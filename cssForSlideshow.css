@@ -1,5 +1,5 @@
 /* Lysbildefremvisning */
-* {box-sizing:border-box}
+/** {box-sizing:border-box}*/
 
 #slideshow-ramme {
   max-width: 1000px;
@@ -17,10 +17,10 @@
   position: absolute;
   top: 45%;
   width: auto;
-  margin-top: -42px;
+  margin-top: -15%;
   padding: 16px;
   color: black;
-  font-size: 22px;
+  font-size: 7em;
   transition: 0.8s ease;
   border-radius: 0 5px 5px 0;
 }
@@ -50,7 +50,7 @@
 /* Bildenummeret */
 .bildenummer {
   color: black;
-  font-size: 14px;
+  font-size: 1em;
   padding: 9px 13px;
   position:absolute;
 }
@@ -72,3 +72,4 @@
 
 .active, .kule:hover {
   background-color: #AA2A2A;
+}
