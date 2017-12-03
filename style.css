@@ -78,6 +78,18 @@ body{
     color: #4b4b49;
     
 }
+
+.introBar li a:focus{
+    margin: 0px;
+    background-color: #ffffff;
+    
+    opacity: 0.9;
+    filter: alpha(opacity=40);
+    /*color: #100d0dbf;*/
+    color: #4b4b49;
+    
+}
+
 #english:hover{
 
 }
