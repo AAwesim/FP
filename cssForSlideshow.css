@@ -39,12 +39,12 @@
 
 /* Bildetekst */
 .tekst {
+  background-color: white;
   text-align: center;
   color: black;
   position: absolute;
-  font-size: 16px;
-  padding: 9px 13px;
-  bottom: 8px;
+  font-size: 24px;
+  bottom: 7%;
   width: 100%;
 }
 
@@ -67,6 +67,10 @@
   background-color: #313131;
   border-radius: 99%;
   transition: background-color 0.6s ease;
+}
+
+.kuler-wrap {
+  margin:30px 0 0 0;
 }
 
 /* Fargen på kula som er aktiv */
