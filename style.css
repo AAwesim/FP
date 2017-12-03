@@ -280,6 +280,7 @@ background-color:#a4a5c3;
 }
 
 .logo-wrapper img {
+    user-select: none;
     box-sizing: border-box;
     margin-left: 42%;
     max-height: 70px;
