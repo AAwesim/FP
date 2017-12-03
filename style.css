@@ -254,6 +254,11 @@ background-color:#a4a5c3;
     max-width: 80%;
 }
 
+.logo-wrapper a {
+    position: relative;
+    z-index:1000;
+}
+
 
 /*LOGO END*/
 
