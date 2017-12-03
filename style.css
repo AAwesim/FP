@@ -495,7 +495,7 @@ h1  {
     color: white;
     text-shadow: black 2px 2px 2px;
     filter: none;
-    padding:0 25px;
+    padding:0 20px;
     border-radius: 40px;
     background-color: rgba(70, 70, 70, 0.45);
 }
