@@ -500,6 +500,10 @@ h1  {
     background-color: rgba(70, 70, 70, 0.45);
 }
 
+.hometext h2 {
+    font-size:1.7em;
+}
+
 .innerhometext .homeli {
     position: relative;
     margin-top: 30vh;
@@ -510,7 +514,7 @@ h1  {
 }
 
 .header {
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: left;
 }
 
@@ -519,7 +523,7 @@ h1  {
 }
 
 .homeli {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 /* homepage content end */
